@@ -22,10 +22,10 @@ export const SurveyBlock = () => {
 
 							<div className='flex-1 text-center md:text-left'>
 								<h3 className='text-xl md:text-2xl font-bold text-foreground mb-2'>
-									Помогите сделать Pinch лучше
+									Станьте частью Pinch
 								</h3>
 								<p className='text-muted-foreground'>
-									Пройдите короткий опрос и расскажите, что для вас важно.
+									Пройдите короткий опрос и расскажите, что для вас важно
 								</p>
 							</div>
 
@@ -41,7 +41,7 @@ export const SurveyBlock = () => {
 						</div>
 						<p className='text-sm pt-4 pr-8 pl-8 pb-8 w-4/5 mx-auto text-foreground/70 text-center md:text-xs'>
 							Только сейчас есть возможность пообщаться о своем опыте с
-							разработчиками.
+							разработчиками
 						</p>
 					</div>
 				</div>

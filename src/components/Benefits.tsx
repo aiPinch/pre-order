@@ -6,19 +6,19 @@ const benefits = [
 		icon: Target,
 		title: 'Персональные шаги',
 		description:
-			'Не общие рекомендации, а конкретные действия, подобранные под ваши анализы, привычки и образ жизни.',
+			'Не общие рекомендации, а конкретные действия, подобранные под ваши анализы, привычки и образ жизни',
 	},
 	{
 		icon: Zap,
 		title: 'Встраивается в ваш день',
 		description:
-			'Каждый шаг занимает минуты, не требует силы воли на уровне героя и не ломает ваш привычный ритм.',
+			'Каждый шаг занимает минуты, не требует силы воли на уровне героя и не ломает ваш привычный ритм',
 	},
 	{
 		icon: Shield,
 		title: 'Без «чудо-обещаний»',
 		description:
-			'Опираемся на научные исследования. Честно говорим, что работает, а что — маркетинг.',
+			'Опираемся на научные исследования. Честно говорим, что работает, а что — маркетинг',
 	},
 ];
 
@@ -60,13 +60,13 @@ export const Benefits = () => {
 				{/* Disclaimer - styled to match site design */}
 				<ScrollReveal delay={300}>
 					<div className='max-w-3xl mx-auto'>
-						<div className='relative p-6 rounded-2xl bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 border border-primary/20 overflow-hidden'>
+						<div className='relative p-6 rounded-2xl bg-gradient-to-r from-primary/5 via-primary/10 to-primary/5 border border-primary/20 overflow-hidden '>
 							{/* Decorative elements */}
 							<div className='absolute top-0 left-0 w-20 h-20 bg-primary/10 rounded-full blur-2xl' />
 							<div className='absolute bottom-0 right-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl' />
 
-							<div className='relative flex items-start gap-4'>
-								<div className='w-10 h-10 rounded-xl bg-primary/20 flex items-center justify-center flex-shrink-0'>
+							<div className='relative flex items-start gap-4   '>
+								<div className='w-10 h-10 rounded-xl  flex items-center justify-center flex-shrink-0'>
 									<Info className='w-5 h-5 text-primary' />
 								</div>
 								<div>
@@ -74,8 +74,7 @@ export const Benefits = () => {
 									<p className='text-sm text-muted-foreground leading-relaxed'>
 										Pinch не заменяет врача — он показывает ваш персональный
 										путь к здоровью. Мы не ставим диагнозы, а помогаем вам
-										понять, какие маленькие шаги реально работают именно для
-										вас.
+										понять, какие маленькие шаги реально работают именно для вас
 									</p>
 								</div>
 							</div>
