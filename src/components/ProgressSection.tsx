@@ -32,9 +32,9 @@ export const ProgressSection = () => {
 				</ScrollReveal>
 
 				{/* Two-column layout: Text left, Mockup right */}
-				<div className='grid lg:grid-cols-2 gap-12 lg:gap-20 items-center max-w-6xl mx-auto'>
+				<div className='grid grid-cols-1 gap-8 sm:gap-12 lg:grid-cols-2 gap-12 lg:gap-20 items-center max-w-6xl mx-auto'>
 					{/* Content - Left */}
-					<div className='space-y-8'>
+					<div className='space-y-8 '>
 						<div className='flex items-start gap-5'>
 							<div className='w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0'>
 								<BarChart3 className='w-7 h-7 text-primary' />
@@ -43,7 +43,7 @@ export const ProgressSection = () => {
 								<h4 className='text-xl font-semibold text-foreground mb-2'>
 									Визуальный дашборд
 								</h4>
-								<p className='text-muted-foreground text-base leading-relaxed'>
+								<p className='text-muted-foreground text-base leading-relaxed md:text-lg'>
 									Отслеживайте выполненные шаги и их влияние на ключевые
 									показатели
 								</p>
@@ -58,7 +58,7 @@ export const ProgressSection = () => {
 								<h4 className='text-xl font-semibold text-foreground mb-2'>
 									Понятный риск-индекс
 								</h4>
-								<p className='text-muted-foreground text-base leading-relaxed'>
+								<p className='text-muted-foreground text-base leading-relaxed md:text-lg'>
 									Простая шкала показывает общий тренд и зоны для внимания
 								</p>
 							</div>
@@ -72,7 +72,7 @@ export const ProgressSection = () => {
 								<h4 className='text-xl font-semibold text-foreground mb-2'>
 									Маленькие победы
 								</h4>
-								<p className='text-muted-foreground text-base leading-relaxed'>
+								<p className='text-muted-foreground text-base leading-relaxed md:text-lg'>
 									Каждый выполненный шаг — видимое достижение, которое
 									мотивирует
 								</p>
@@ -188,7 +188,7 @@ export const ProgressSection = () => {
 									</div>
 
 									{/* Category bars */}
-									<div className='flex-1 space-y-2'>
+									<div className='flex-1 space-y-2 '>
 										<div className='flex items-center justify-between text-xs'>
 											<span className='text-muted-foreground'>Питание</span>
 											<div className='flex items-center gap-2'>
@@ -247,9 +247,8 @@ export const ProgressSection = () => {
 											Добавить в рацион куркуму
 										</div>
 										<p className='text-xs text-muted-foreground leading-relaxed'>
-											Куркумин обладает противовоспалительными свойствами и
-											поддерживает здоровье суставов. Добавляйте ½ ч.л. в еду
-											или смузи.
+											Куркумин поддерживает здоровье суставов. Добавляйте ½ ч.л.
+											в еду в день.
 										</p>
 									</div>
 								</div>
