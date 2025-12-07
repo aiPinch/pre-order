@@ -4,7 +4,18 @@ import path from 'path';
 import { componentTagger } from 'lovable-tagger';
 
 // https://vitejs.dev/config/
-export default defineConfig({
-	base: '/pre-order/',
-	plugins: [react()],
-});
+export default defineConfig(({ mode }) => ({
+	base: '/pre-order/', // вот это ключевой момент для gh-pages
+	server: {
+		host: '::',
+		port: 8080,
+	},
+	plugins: [react(), mode === 'development' && componentTagger()].filter(
+		Boolean
+	),
+	resolve: {
+		alias: {
+			'@': path.resolve(__dirname, './src'),
+		},
+	},
+}));
