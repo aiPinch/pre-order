@@ -162,12 +162,9 @@ export const SignupForm = () => {
 								)}
 							</Button>
 
-							{isPreorder && (
-								<p className='text-sm text-muted-foreground text-center mt-4'>
-									Сервис будет платным (подписка). Сейчас идёт ранний доступ и
-									сбор интереса — никакой оплаты пока нет.
-								</p>
-							)}
+							<p className='text-sm text-muted-foreground text-center mt-4'>
+								Как только Pinch станет доступным, мы вам напишем!
+							</p>
 						</div>
 					</form>
 
